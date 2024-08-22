@@ -8,6 +8,9 @@ YARN_VERSION := $(shell yarn --version)
 # 构建项目
 build: install
 	yarn run build
+# 启动开发服务器
+dev: install
+	yarn run dev
 # 安装环境
 env:
 	asdf install

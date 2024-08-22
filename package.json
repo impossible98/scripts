@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "build": "tsup video.ts",
+    "dev": "nodemon ./video.ts",
     "format": "prettier . --check",
     "format:fix": "prettier . --write --cache"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
+    "nodemon": "^3.1.4",
     "prettier": "^3.0.0",
     "tsup": "^8.2.4"
   }
