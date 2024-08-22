@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsup video.ts",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write --cache"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^8.2.4"
+  }
+}
